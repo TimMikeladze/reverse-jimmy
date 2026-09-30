@@ -1,7 +1,7 @@
 {
 	"name": "reverse-jimmy",
 	"version": "0.1.0",
-	"description": "Elegant and performant component library",
+	"description": "Minimal API client for chatjimmy.ai with rate limiting, retries, and batching",
 	"homepage": "https://github.com/TimMikeladze/reverse-jimmy#readme",
 	"bugs": {
 		"url": "https://github.com/TimMikeladze/reverse-jimmy/issues"
