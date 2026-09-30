@@ -1,12 +1,34 @@
 {
 	"name": "reverse-jimmy",
 	"version": "0.1.0",
-	"description": "Minimal API client for chatjimmy.ai with rate limiting, retries, and batching",
+	"description": "Unofficial minimal TypeScript client for chatjimmy.ai (llama3.1-8B): streaming, batching, rate limiting, retries, and user-agent/proxy rotation",
+	"keywords": [
+		"ai",
+		"api-client",
+		"batching",
+		"bun",
+		"chat",
+		"chatjimmy",
+		"chatjimmy.ai",
+		"jimmy",
+		"llama",
+		"llama3.1",
+		"llm",
+		"proxy",
+		"rate-limit",
+		"rate-limiting",
+		"retry",
+		"sdk",
+		"streaming",
+		"typescript",
+		"user-agent"
+	],
 	"homepage": "https://github.com/TimMikeladze/reverse-jimmy#readme",
 	"bugs": {
 		"url": "https://github.com/TimMikeladze/reverse-jimmy/issues"
 	},
 	"license": "MIT",
+	"author": "TimMikeladze",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/TimMikeladze/reverse-jimmy.git"
@@ -15,6 +37,7 @@
 		"dist"
 	],
 	"type": "module",
+	"sideEffects": false,
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
@@ -57,5 +80,9 @@
 	},
 	"simple-git-hooks": {
 		"pre-commit": "bun run lint && bun run type-check"
+	},
+	"engines": {
+		"bun": ">=1.1",
+		"node": ">=20.3"
 	}
 }

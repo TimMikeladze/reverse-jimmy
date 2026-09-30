@@ -1,6 +1,6 @@
 # reverse-jimmy
 
-Minimal TypeScript client for [chatjimmy.ai](https://chatjimmy.ai) (llama3.1-8B). No auth needed. Protocol notes: [docs/protocol.md](docs/protocol.md).
+Unofficial, minimal TypeScript client for [chatjimmy.ai](https://chatjimmy.ai) (llama3.1-8B). No auth needed. Protocol notes: [docs/protocol.md](docs/protocol.md).
 
 ## Installation
 
